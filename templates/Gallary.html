@@ -1,0 +1,234 @@
+{% extends "Base.html" %}
+
+{% block title %} Gallary Page {% endblock %}
+{% block heading %} Gallary{% endblock %}
+{% block contain %}
+	<section id="content">
+	<div class="container">
+	
+						<div class="row"> 
+							<div class="col-md-12">
+								<div class="about-logo">
+									<h3>Our <span class="color">Gallery</span></h3>
+									<p>We have the collection of the best Photos of the event organize by the Achariya Maharasabji.</p>
+									<p>We seperate the image according to the event occur and update daily on the basis of the function.</p></div>  
+							</div>
+						</div> 
+						
+	</div>
+	</section>	
+			  <!-- Start Gallery 1-2 -->
+    <section id="gallery-1" class="content-block section-wrapper gallery-1">
+    	 	<div class="container">
+
+			<div class="editContent">
+	            <ul class="filter">
+	                <li class="active"><a href="#" data-filter="*">Shiver</a></li>
+	                <li><a class="waves-effect waves-dark" href="#" data-filter=".artwork">Pithika</a></li>
+	                <li><a class="waves-effect waves-dark" href="#" data-filter=".creative">Chatrumas</a></li>
+	                <li><a class="waves-effect waves-dark" href="#" data-filter=".outside">Other Programs</a></li>
+	            </ul>
+			</div>
+            <!-- /.gallery-filter -->
+            
+            <div class="row">
+                <div id="isotope-gallery-container">
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="{{url_for('static', filename = 'images/works/1.jpg')}}" width="500px" class="img-responsive" alt="1st gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="static/images/works/1.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+	                                <h5>Sivir </h5>
+                            	</div>
+                            	<div class="editContent">
+	                                <p>RATA MAHAVEERJI BALI(PALI,RAJASTHAN)</p>
+                            	</div>
+                            </div>
+                        </div>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="{{url_for('static', filename = 'images/works/7.jpg')}}"  class="img-responsive" alt="2st gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/7.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+	                                <h5>Sivir </h5>
+                            	</div>
+                            	<div class="editContent">
+	                                <p>RATA MAHAVEERJI BALI(PALI,RAJASTHAN)</p>
+                            	</div>
+                            </div>
+                        </div>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="{{url_for('static', filename = 'images/works/8.jpg')}}"  class="img-responsive" alt="1st gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/8.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+	                                <h5>Sivir </h5>
+                            	</div>
+                            	<div class="editContent">
+	                                <p>RATA MAHAVEERJI BALI(PALI,RAJASTHAN)</p>
+                            	</div>
+                            </div>
+                        </div>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="{{url_for('static', filename = 'images/works/9.jpg')}}"  class="img-responsive" alt="1st gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/9.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+	                                <h5>Sivir </h5>
+                            	</div>
+                            	<div class="editContent">
+	                                <p>RATA MAHAVEERJI BALI(PALI,RAJASTHAN)</p>
+                            	</div>
+                            </div>
+                        </div>
+					</div>
+					
+					<div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="{{url_for('static', filename = 'images/works/10.jpg')}}"  class="img-responsive" alt="1st gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/10.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+	                                <h5>Sivir </h5>
+                            	</div>
+                            	<div class="editContent">
+	                                <p>RATA MAHAVEERJI BALI(PALI,RAJASTHAN)</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature outside">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="{{url_for('static', filename = 'images/works/2.jpg')}}" class="img-responsive" alt="2nd gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/2.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>2nd gallery Item</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper photography artwork">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="{{url_for('static', filename = 'images/works/3.jpg')}}" class="img-responsive" alt="3rd gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/3.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>3rd gallery Item</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper creative nature">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="{{url_for('static', filename = 'images/works/4.jpg')}}" class="img-responsive" alt="4th gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/4.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>4th gallery Item</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="{{url_for('static', filename = 'images/works/5.jpg')}}" class="img-responsive" alt="5th gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/5.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>5th gallery Item</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.gallery-item-wrapper -->
+                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+                        <div class="gallery-item">
+                            <div class="gallery-thumb">
+                                <img src="{{url_for('static', filename = 'images/works/6.jpg')}}" class="img-responsive" alt="6th gallery Thumb">
+                                <div class="image-overlay"></div>
+                                <a href="img/works/6.jpg" class="gallery-zoom"><i class="fa fa-eye"></i></a>
+                                
+                            </div>
+                            <div class="gallery-details">
+                            	<div class="editContent">
+                                	<h5>6th gallery Item</h5>
+                            	</div>
+                            	<div class="editContent">
+                                	<p>Nullam id dolor id nibh ultricies vehicula.</p>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- /.isotope-gallery-container -->
+            </div>
+            <!-- /.row --> 
+        <!-- /.container -->
+		</div>
+    </section>
+    <!--// End Gallery 1-2 -->  
+{% endblock %}

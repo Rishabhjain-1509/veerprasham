@@ -1,0 +1,25 @@
+{% extends "Base.html" %}
+
+{% block title %} Samuday List Page {% endblock %}
+
+{% block heading %} Samuday List{% endblock %}
+
+{% block contain %}
+	<section id="content">
+		<div class="container content">
+            {% for i in range(len) %}
+                <div class="col-sm-4 info-blocks">
+                    <div class="info-blocks-in" style="padding: 15px;">
+                            <a class="Book" Style="color: antiquewhite;" href="{{url_for(List[i])}}">
+                                <button value="Book" class="btn" style="width:100%">
+                                {{MSL[i]}}</button></a>
+                        </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+ {% endblock %}
+
+
+

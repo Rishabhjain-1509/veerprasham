@@ -1,0 +1,23 @@
+{% extends "Base.html" %}
+{% block title %} Shamlani Pole Page {% endblock %}
+
+{% block heading %} Shamlani Pole {% endblock%}
+
+{% block contain %}
+	<section id="content">
+		<div class="container content">
+            {% for i in range(0,len) %}
+                <div class="col-sm-4 info-blocks">
+                    <div class="info-blocks-in" style="padding: 15px;">
+                            <a class="Book" Style="color: antiquewhite;" href="static\panditji ms\4.Shamlani Pole\{{SMP[i]}}.pdf">
+                                <button value="Book" class="btn" style="width:100%">
+                                {{SMP[i]}}</button></a>
+                        </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+ {% endblock %}
+
+
+

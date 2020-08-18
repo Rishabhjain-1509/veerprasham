@@ -1,0 +1,38 @@
+{% extends "Base.html" %}
+
+{% block title %} Magazine Page {% endblock %}
+
+{% block heading %} Collection Of Vande Viram Magazine {% endblock %}
+
+{% block contain %}
+	<section id="content">
+		<div class="container content">
+        <!-- Service Blcoks -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="about-logo">
+						<h3>Our Best <span class="color">Magazine</span></h3>
+						<p>Respectfully People,</p>
+						<p>&nbsp;&nbsp;In the Present of Achary Prashmesh Suriji, We the Team of Veer Parsham produce the series of magzine who introduce to path of jain rule and </p>
+					</div>
+				</div>
+			</div>
+						 
+            <!-- Info Blcoks -->
+            {% for i in Bl %}
+                <div class="col-sm-4 info-blocks">
+                    <h3 style="color: #93c83f; font-family: Alegreya;">Vande Viram Book {{i}}</h3>
+                    <div class="info-blocks-in" style="padding: 15px;">
+						<image src="{{ url_for('static', filename='images/book/'+i+'.png') }}" height="225px"></image>
+						<br>
+						<br>
+                            <a class="Book" Style="color: antiquewhite;" href="static\Book\Vande_Viram_Book_{{i}}.pdf">
+                                <button value="Book" class="btn" style="width:100%">
+                                    <i class="fa fa-download"></i>&nbsp;Magazine - {{i}}</button></a>
+					</div>
+                </div>
+			{% endfor %}
+    	</div>
+    </section>
+ {% endblock %}
